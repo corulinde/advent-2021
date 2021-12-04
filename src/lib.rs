@@ -1,6 +1,8 @@
 use std::io::{self, BufRead};
 use std::str::FromStr;
 
+pub mod bingo;
+
 pub fn stdin() -> Option<Vec<String>> {
   io::stdin().lock()
     .lines()
